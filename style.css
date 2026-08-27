@@ -295,3 +295,7 @@ footer{padding:2.5rem 0 4rem;font-family:var(--mono);font-size:.68rem;color:var(
   .ident{flex-direction:column;gap:1.5rem}
   .ident__photo{width:8rem}
 }
+
+/* links dentro da ficha do hero */
+.facts a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.facts a:hover,.facts a:focus-visible{color:var(--pink);border-bottom-color:var(--pink)}
