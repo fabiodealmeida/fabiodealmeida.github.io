@@ -306,3 +306,8 @@ footer{padding:2.5rem 0 4rem;font-family:var(--mono);font-size:.68rem;color:var(
   letter-spacing:-.022em;text-decoration:none;border-bottom:1px solid var(--rule);padding-bottom:.15rem}
 .contact__links a:hover,.contact__links a:focus-visible{color:var(--pink);border-bottom-color:var(--pink)}
 .based-in{font-family:var(--mono);font-size:.76rem;color:var(--grey);margin:2rem 0 0}
+
+@media (max-width:600px){
+  .facts b{display:block;min-width:0;margin-bottom:.1rem}
+  .facts{gap:.9rem}
+}
