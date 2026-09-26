@@ -34,11 +34,11 @@ a{color:inherit}
 img{max-width:100%;display:block}
 
 /* ---------- overprint motif: a pink plate that sits slightly off ---------- */
-.overprint{position:relative;display:inline}
-.overprint::before{
-  content:"";position:absolute;inset:-.05em -.15em .12em -.15em;
-  background:var(--pink);mix-blend-mode:multiply;z-index:-1;
-  transform:translate(2px,3px);
+.overprint{
+  background:var(--pink);
+  padding:.04em .16em;
+  -webkit-box-decoration-break:clone;
+  box-decoration-break:clone;
 }
 
 /* ---------------------------- navigation ---------------------------- */
